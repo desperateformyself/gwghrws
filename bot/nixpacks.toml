@@ -1,0 +1,3 @@
+# Nixpacks configuration to install font support for canvas image generation
+[phases.setup]
+nixPkgs = ["fontconfig", "dejavu_fonts"]
